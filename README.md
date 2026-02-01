@@ -1,2 +1,2 @@
 # Design-Thinking-2025
-Design thinking's Project 
+รายละเอียดของแผนงานที่ต้องทำโครงงาน
