@@ -20,7 +20,7 @@ try:
             # สร้าง clickable title ที่เป็น link
             title = row["Title"]
             description = row["Description"]
-            link = row["link"]
+            link = row["Link"]
             
             # แสดงหัวข้อเป็น link
             st.markdown(f"### [{title}]({link})")
