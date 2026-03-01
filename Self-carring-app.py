@@ -15,8 +15,13 @@ try:
     if df.empty:
         st.warning("ไม่พบข้อมูลในไฟล์ CSV")
     else:
-        # เพิ่ม Search Bar
-        search_query = st.text_input("🔍 ค้นหาหัวข้อ", placeholder="พิมพ์คำค้นหา...")
+        # เพิ่ม Search Bar พร้อมการเก็บค่า
+        search_query = st.text_input(
+            "🔍 ค้นหาหัวข้อ", 
+            placeholder="พิมพ์คำค้นหา...",
+            value=st.session_state.get("search_query", ""),
+            key="search_query"
+        )
         st.markdown("---")
         
         # กรองข้อมูลตามการค้นหา
