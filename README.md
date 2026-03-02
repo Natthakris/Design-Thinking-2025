@@ -35,9 +35,10 @@ A collection of academic projects and coursework.
    cd Design-Thinking-2025
 
 2.ติดตั้ง VScode เพื่อนำมาใช้งาน
+
 3.เปิดใช้งาน VScode ด้วยภาาษาpython "[คลิกเพื่อโหลด Code การ Scraping](https://github.com/Natthakris/Design-Thinking-2025/blob/main/Self-carring-Web-scraping.ipynb)"
 
-##สรุปผล
+## สรุปผล
 
 แอปพลิเคชัน Streamlit นี้ประกอบไปด้วย 3 หน้าคือ หน้าแรก,สาระสุขภาพ และติดต่อ 
  
