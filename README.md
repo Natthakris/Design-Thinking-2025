@@ -41,6 +41,7 @@ A collection of academic projects and coursework.
 ## สรุปผล
 
 แอปพลิเคชัน Streamlit นี้ประกอบไปด้วย 3 หน้าคือ หน้าแรก,สาระสุขภาพ และติดต่อ 
+ลิงค์หน้าเว็บ : https://design-thinking-2025-cb8piyugvtdq7azrwgumno.streamlit.app/
  
 
 
