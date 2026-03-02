@@ -121,8 +121,8 @@ elif page == "🏥 สาระสุขภาพ":
                 filtered_df = df
             else:
                 filtered_df = df[
-                    df["Title"].str.contains(search_query, case=False, na=False) |
-                    df["Description"].str.contains(search_query, case=False, na=False)
+                    df["Title"].str.contains(search_query, case=False, na=False) 
+                    # df["Description"].str.contains(search_query, case=False, na=False)
                 ]
 
             # แสดงจำนวนผลการค้นหา
